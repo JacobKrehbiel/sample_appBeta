@@ -2,11 +2,11 @@ module ApplicationHelper
 
   # Return a title on a per-page basis
   def title
-    base_file = "Ruby on Rails Tutoral Sample App"
+    base_title = "Ruby on Rails Tutoral Sample App"
     if @title.nil?
       base_title
     else
-      "#{base_title}" | #{@title}
+      "#{base_title} | #{@title}"
     end
   end
 end
